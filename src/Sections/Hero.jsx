@@ -33,7 +33,7 @@ const Hero = () => {
 	                </svg>
                 </div>
                 <div className=" border-white text-lowWhite pr-10">
-                  <div className="-mt-9 lg:-mt-5 text-">
+                  <div className="-mt-9 lg:-mt-5 text-pretty text-sm sm:text-base">
                     <p className="hidden md:inline hero_p">Passionate Frontend Developer</p><p className="inline hero_p"> specializing in React.js.</p><p className="inline hero_p"> I transform ideas into interactive and visually stunning web experiences.</p><p className="hidden md:inline hero_p"> Your Vision, My Code - Let's Build Something Extraordinary Together</p>
                   </div>
                 </div>
