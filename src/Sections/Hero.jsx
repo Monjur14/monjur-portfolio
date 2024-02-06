@@ -1,3 +1,5 @@
+import SphereAnimation from "../Components/sphereAnimation"
+
 /* eslint-disable no-mixed-spaces-and-tabs */
 const Hero = () => {
   return (
@@ -31,7 +33,9 @@ const Hero = () => {
                 </div>
             </div>
             <div className="basis-1/2">
-
+                <div className="w-full lg:w-[30rem] mx-auto">
+                <SphereAnimation/>
+                </div>
             </div>
         </div>
       </header>
