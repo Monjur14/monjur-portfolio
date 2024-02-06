@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 /* Global Style Start */
+
 .contain{
   max-width: 1200px;
   margin: auto;
@@ -105,6 +106,17 @@
 	100% {
 		fill: rgba(236,89,56,1); stroke: rgba(236,89,56,0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+.hero_p{
+	animation: blurP linear 1 5.2s;
+}
+@keyframes blurP {
+	from{
+		filter: blur(7px)
+	}
+	to{
+		filter: blur(0px)
 	}
 }
 /* Header Section End */
