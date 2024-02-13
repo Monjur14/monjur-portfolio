@@ -1,8 +1,40 @@
-@media (0px < width <= 375px) {
+@media (0px < width < 375px) {
     .contain{
         padding: 0rem 0.6rem;
     }
     .text1, .text2, .text3, .text4{
 		font-size: 45px;
+	}
+}
+@media (375px <= width < 400px) {
+    .contain{
+        padding: 0rem 0.6rem;
+    }
+    .text1, .text2, .text3, .text4{
+		font-size: 50px;
+	}
+}
+@media (400px <= width < 768px) {
+    .contain{
+        padding: 0rem 0.6rem;
+    }
+    .text1, .text2, .text3, .text4{
+		font-size: 53px;
+	}
+}
+@media (768px <= width < 1024px) {
+    .contain{
+        padding: 0rem 1rem;
+    }
+    .text1, .text2, .text3, .text4{
+		font-size: 80px;
+	}
+}
+@media (1024px <= width < 1200px) {
+    .contain{
+        padding: 0rem 1.2rem;
+    }
+    .text1, .text2, .text3, .text4{
+		font-size: 65px;
 	}
 }

@@ -7,10 +7,9 @@ export default {
   theme: {
     screens: {
       xsm: "375px",
-      msm: "400px",
-      sm: "650px",
+      sm: "400px",
       md: "768px",
-      xmd: "995px",
+      xmd: "1024px",
       lg: "1200px",
     },
     colors: {

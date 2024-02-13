@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 /* Global Style Start */
-
+*{
+	/* border: 1px solid red; */
+}
 .contain{
   max-width: 1200px;
   margin: auto;
@@ -11,6 +13,9 @@
 /* Global Style End */
 
 /* Header Section Start */
+.head__bg{
+	
+}
 .svg1{
 	font-family: "Russo One", sans-serif;
 	width: 100%;
