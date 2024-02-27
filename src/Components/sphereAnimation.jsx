@@ -23,10 +23,8 @@ const SphereAnimation = () => {
           var sphereEl = document.querySelector('.sphere-animation');
           var spherePathEls = sphereEl.querySelectorAll('.sphere path');
           var pathLength = spherePathEls.length;
-          var animations = [];
-    
-          fitElementToParent(sphereEl);
-    
+          var animations = [];   
+          fitElementToParent(sphereEl);    
           var breathAnimation = anime({
             begin: function () {
               for (var i = 0; i < pathLength; i++) {
