@@ -10,9 +10,84 @@
   max-width: 1200px;
   margin: auto;
 }
+
+
 /* Global Style End */
 
 /* Header Section Start */
+.bg{
+	background-image: url(/public/bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+.main-title {
+	text-align: center;
+  }
+.sec-title {
+	position: relative;
+  }
+  .sec-title span {
+	font-size: 10rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	background: -webkit-gradient(
+	  linear,
+	  right top,
+	  left top,
+	  from(#ffffff45),
+	  to(#ffffff00)
+	);
+	background: -o-linear-gradient(right, #ffffff45 0%, #ffffff00 100%);
+	background: linear-gradient(270deg, #ffffff45 0%, #ffffff00 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+  }
+  .sec-title h1 {
+	font-size: 5rem;
+	text-transform: capitalize;
+	font-weight: 500;
+	position: absolute;
+	color: #ffffffd3;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	bottom: 3rem;
+  }
+  .sec-title img {
+	position: absolute;
+	max-width: 30rem;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	bottom: 1rem;
+  }
+  .main-title {
+	margin-bottom: 10rem;
+  }
+  .main-title p {
+	color: var(--transparent);
+	margin-top: 1rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
 .svg1{
 	font-family: "Russo One", sans-serif;
 	width: 100%;
@@ -26,6 +101,7 @@
     fill: #B7AA97;
     font-weight: bold;
 }
+
 @keyframes stroke1 {
 	0%   {
 		fill: rgba(183,170,151,0); stroke: rgba(183,170,151,1);
@@ -97,6 +173,70 @@
 	font-size: 64px;
     fill: #EC5938;
     font-weight: bold;
+}
+
+
+
+
+.hamburger {
+	cursor: pointer;
+  }
+  
+  .hamburger input {
+	display: none;
+  }
+  
+  .hamburger svg {
+	/* The size of the SVG defines the overall size */
+	height: 3.5em;
+	/* Define the transition for transforming the SVG */
+	transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line {
+	fill: none;
+	stroke: #dfdddd;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 3;
+	/* Define the transition for transforming the Stroke */
+	transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+				stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line-top-bottom {
+	stroke-dasharray: 12 63;
+  }
+  
+  .hamburger input:checked + svg {
+	transform: rotate(-45deg);
+  }
+  
+  .hamburger input:checked + svg .line-top-bottom {
+	stroke-dasharray: 20 300;
+	stroke-dashoffset: -32.42;
+  }
+
+.bg-gd{
+	background-color:hsla(0,100%,50%,0);
+	background-image:
+	radial-gradient(at 80% 100%, hsla(240,100%,70%,0) 0px, transparent 50%),
+	radial-gradient(at 71% 60%, hsla(11,81%,56%,0.12) 0px, transparent 50%);
+}
+
+
+
+
+
+
+@media (1500px < width < 10000px) {		
+	.contain{
+		max-width: 1500px;
+		margin: auto;
+	}
+	.text1, .text2, .text3, .text4{
+		font-size: 90px;
+	}
 }
 @keyframes stroke4 {
 	0%   {

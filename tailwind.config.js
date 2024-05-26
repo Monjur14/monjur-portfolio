@@ -11,6 +11,7 @@ export default {
       md: "768px",
       xmd: "1024px",
       lg: "1200px",
+      xxl: "1500px"
     },
     colors: {
       black: "#0D0D0D",
