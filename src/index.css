@@ -10,16 +10,20 @@
   max-width: 1200px;
   margin: auto;
 }
-
-
 /* Global Style End */
 
-/* Header Section Start */
+/* Hero Section Start */
 .bg{
 	background-image: url(/public/bg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.bg-gd{
+	background-color:hsla(0,100%,50%,0);
+	background-image:
+	radial-gradient(at 80% 100%, hsla(240,100%,70%,0) 0px, transparent 50%),
+	radial-gradient(at 71% 60%, hsla(11,81%,56%,0.12) 0px, transparent 50%);
 }
 
 
@@ -42,8 +46,8 @@
 	  from(#ffffff45),
 	  to(#ffffff00)
 	);
-	background: -o-linear-gradient(right, #ffffff45 0%, #ffffff00 100%);
-	background: linear-gradient(270deg, #ffffff45 0%, #ffffff00 100%);
+	background: -o-linear-gradient(right, #ffffffd2 0%, #ffffff00 100%);
+	background: linear-gradient(270deg, #ffffff8c 0%, #ffffff00 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -84,14 +88,37 @@
 
 
 
+  .sphere {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  .animation-wrapper {
+	width: 100%;
+	height: 100%;
+  }
+  
 
 
-
-
+.hero_p{
+	animation: blurP linear 1 5.2s;
+}
 .svg1{
 	font-family: "Russo One", sans-serif;
 	width: 100%;
     height: 100%;
+}
+.svg2{
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+.svg3{
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+.svg4{
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
 }
 .text1{
 	animation: stroke1 5s 1;
@@ -99,6 +126,30 @@
 	stroke: transparent;
 	font-size: 64px;
     fill: #B7AA97;
+    font-weight: bold;
+}
+.text2{
+	animation: stroke2 5s 1;
+	stroke-width: 2;
+	stroke: transparent;
+	font-size: 64px;
+    fill: #B7AA97;
+    font-weight: bold;
+}
+.text3{
+	animation: stroke3 5s 1;
+	stroke-width: 2;
+	stroke: transparent;
+	font-size: 64px;
+    fill: #EC5938;
+    font-weight: bold;
+}
+.text4{
+	animation: stroke4 5s 1;
+	stroke-width: 2;
+	stroke: transparent;
+	font-size: 64px;
+    fill: #EC5938;
     font-weight: bold;
 }
 
@@ -114,18 +165,6 @@
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
 }
-.svg2{
-	font-family: "Russo One", sans-serif;
-	width: 100%; height: 100%;
-}
-.text2{
-	animation: stroke2 5s 1;
-	stroke-width: 2;
-	stroke: transparent;
-	font-size: 64px;
-    fill: #B7AA97;
-    font-weight: bold;
-}
 @keyframes stroke2 {
 	0%   {
 		fill: rgba(183,170,151,0); stroke: rgba(183,170,151,1);
@@ -138,18 +177,6 @@
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
 }
-.svg3{
-	font-family: "Russo One", sans-serif;
-	width: 100%; height: 100%;
-}
-.text3{
-	animation: stroke3 5s 1;
-	stroke-width: 2;
-	stroke: transparent;
-	font-size: 64px;
-    fill: #EC5938;
-    font-weight: bold;
-}
 @keyframes stroke3 {
 	0%   {
 		fill: rgba(236,89,56,0); stroke: rgba(236,89,56,1);
@@ -160,82 +187,6 @@
 	100% {
 		fill: rgba(236,89,56,1); stroke: rgba(236,89,56,0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-	}
-}
-.svg4{
-	font-family: "Russo One", sans-serif;
-	width: 100%; height: 100%;
-}
-.text4{
-	animation: stroke4 5s 1;
-	stroke-width: 2;
-	stroke: transparent;
-	font-size: 64px;
-    fill: #EC5938;
-    font-weight: bold;
-}
-
-
-
-
-.hamburger {
-	cursor: pointer;
-  }
-  
-  .hamburger input {
-	display: none;
-  }
-  
-  .hamburger svg {
-	/* The size of the SVG defines the overall size */
-	height: 3.5em;
-	/* Define the transition for transforming the SVG */
-	transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .line {
-	fill: none;
-	stroke: #dfdddd;
-	stroke-linecap: round;
-	stroke-linejoin: round;
-	stroke-width: 3;
-	/* Define the transition for transforming the Stroke */
-	transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-				stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .line-top-bottom {
-	stroke-dasharray: 12 63;
-  }
-  
-  .hamburger input:checked + svg {
-	transform: rotate(-45deg);
-  }
-  
-  .hamburger input:checked + svg .line-top-bottom {
-	stroke-dasharray: 20 300;
-	stroke-dashoffset: -32.42;
-  }
-
-.bg-gd{
-	background-color:hsla(0,100%,50%,0);
-	background-image:
-	radial-gradient(at 80% 100%, hsla(240,100%,70%,0) 0px, transparent 50%),
-	radial-gradient(at 71% 60%, hsla(11,81%,56%,0.12) 0px, transparent 50%);
-}
-
-
-
-
-
-
-@media (1500px < width < 10000px) {		
-	.contain{
-		max-width: 1500px;
-		margin: auto;
-	}
-	.text1, .text2, .text3, .text4{
-		font-size: 90px;
 	}
 }
 @keyframes stroke4 {
@@ -250,9 +201,6 @@
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
 }
-.hero_p{
-	animation: blurP linear 1 5.2s;
-}
 @keyframes blurP {
 	from{
 		filter: blur(7px)
@@ -262,3 +210,17 @@
 	}
 }
 /* Header Section End */
+
+/* Media Quiry Start */
+@media (1500px < width < 10000px) {		
+	.contain{
+		max-width: 1500px;
+		margin: auto;
+	}
+
+	/* Hero Section */
+	.text1, .text2, .text3, .text4{
+		font-size: 90px;
+	}
+}
+/* Media Quiry End */

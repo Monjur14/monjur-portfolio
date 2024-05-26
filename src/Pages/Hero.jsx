@@ -17,20 +17,11 @@ const Hero = () => {
                 <li><a href="">Projects</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-            <div >
-            <label className="hamburger">
-              <input type="checkbox" />
-  <svg viewBox="0 0 32 32">
-    <path className="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
-    <path className="line" d="M7 16 27 16"></path>
-  </svg>
-</label>
-            </div>
         </nav>
         <div className="flex flex-col xmd:flex-row items-center h-[85vh] gap-10 lg:gap-0 mt-0 xmd:mt-5">
             <div className="basis-1/2">
               
-                <div className=" border-white -space-y-[6.18rem] xsm:-space-y-[5.83rem] md:-space-y-[4.4rem] xmd:-space-y-[4.8rem] lg:-space-y-[5.1rem] xxl:-space-y-[4.2rem] -mt-7 xsm:-mt-2 lg:-mt-3 xxl:-mt-28">
+                <div className=" border-white -space-y-[6.5rem] xsm:-space-y-[5.83rem] md:-space-y-[4.4rem] xmd:-space-y-[4.8rem] lg:-space-y-[5.1rem] xxl:-space-y-[4.2rem] -mt-7 xsm:-mt-2 lg:-mt-3 xxl:-mt-28">
                     <svg className="svg1">
 		                <text x="0px" y="50%" dy=".35em" className="text1">Hi, I am</text>
 	                </svg>
@@ -51,7 +42,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="basis-1/2 mb-10 flex justify-center items-center">
-                <div className="w-full lg:w-[30rem] mx-auto xxl:w-[85%]">
+                <div className="w-screen lg:w-full border">
                     <SphereAnimation/>
                 </div>
             </div>
