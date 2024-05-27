@@ -19,7 +19,7 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
   const words = text.split(" ");
 
   // Define words that should have a different color
-  const specialWords = ["software", "innovation", "creativity.", "engineer.", "collaborate", "web", "frontend", "developer,", "passion", "precision.", "developer."];
+  const specialWords = ["Software", "Innovation", "Creativity.", "Engineer.", "Collaborate", "Web", "Frontend", "Developer,", "Passion", "Precision.", "Developer."];
 
   return (
     <div ref={targetRef} className={cn("relative z-0 h-[200vh]", className)}>
@@ -30,7 +30,7 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
       >
         <p
           className={
-            "flex flex-wrap  text-[1.8rem] leading-9 text-justify xxl:text-[3.9rem] xxl:leading-[4.4rem] font-extrabold text-black/20 dark:text-white/20 "
+            "flex flex-wrap  text-[1.8rem] leading-9 text-justify xxl:text-[3.9rem] xxl:leading-[4.4rem] font-extrabold text-white/20 "
           }
         >
           {words.map((word, i) => {
