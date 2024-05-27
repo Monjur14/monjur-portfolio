@@ -2,7 +2,7 @@
 
 const Second = () => {
   return (
-    <div className='bg-[#000000fa]'>
+    <div className='bg-[#000000fa] h-screen w-full'>
       <div className="main-title">
             <div className="sec-title">
               <span>About Me</span>

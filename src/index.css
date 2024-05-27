@@ -36,9 +36,9 @@
 	position: relative;
   }
   .sec-title span {
-	font-size: 10rem;
+	font-size: 8.3rem;
 	text-transform: uppercase;
-	font-weight: 900;
+	font-weight: 800;
 	background: -webkit-gradient(
 	  linear,
 	  right top,
@@ -54,7 +54,7 @@
 	text-fill-color: transparent;
   }
   .sec-title h1 {
-	font-size: 5rem;
+	font-size: 4.3rem;
 	text-transform: capitalize;
 	font-weight: 500;
 	position: absolute;
@@ -63,7 +63,7 @@
 	-webkit-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
-	bottom: 3rem;
+	bottom: 1.5rem;
   }
   .sec-title img {
 	position: absolute;
@@ -83,7 +83,10 @@
   }
 
 
-
+.bg-transparent{
+	background: transparent;
+	backdrop-filter: blur(20px);
+}
 
 
 
@@ -101,7 +104,7 @@
 
 
 .hero_p{
-	animation: blurP linear 1 5.2s;
+	animation: blurP linear 1 3.2s;
 }
 .svg1{
 	font-family: "Russo One", sans-serif;
@@ -121,7 +124,7 @@
 	width: 100%; height: 100%;
 }
 .text1{
-	animation: stroke1 5s 1;
+	animation: stroke1 3s 1;
 	stroke-width: 2;
 	stroke: transparent;
 	font-size: 64px;
@@ -129,7 +132,7 @@
     font-weight: bold;
 }
 .text2{
-	animation: stroke2 5s 1;
+	animation: stroke2 3s 1;
 	stroke-width: 2;
 	stroke: transparent;
 	font-size: 64px;
@@ -137,7 +140,7 @@
     font-weight: bold;
 }
 .text3{
-	animation: stroke3 5s 1;
+	animation: stroke3 3s 1;
 	stroke-width: 2;
 	stroke: transparent;
 	font-size: 64px;
@@ -145,12 +148,15 @@
     font-weight: bold;
 }
 .text4{
-	animation: stroke4 5s 1;
+	animation: stroke4 3s 1;
 	stroke-width: 2;
 	stroke: transparent;
 	font-size: 64px;
     fill: #EC5938;
     font-weight: bold;
+}
+.zind{
+	z-index: 9999999;
 }
 
 @keyframes stroke1 {
@@ -212,6 +218,20 @@
 /* Header Section End */
 
 /* Media Quiry Start */
+@media (0px < width <= 365px) {
+	.sec-title span{
+		font-size: 4rem;
+	}
+	.sec-title h1{
+		font-size: 2.5rem;
+		min-width: 200px;
+		bottom: 0.5rem;
+	}
+	.sec-title img{
+		max-width: 400px;
+		bottom: 0rem;
+	}
+}
 @media (1500px < width < 10000px) {		
 	.contain{
 		max-width: 1500px;
