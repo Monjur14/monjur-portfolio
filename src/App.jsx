@@ -1,15 +1,16 @@
 import './App.css'
 import AboutMe from './Pages/AboutMe'
 import Hero from './Pages/Hero'
-import Second from './Pages/Second'
-// import Second from './Pages/Second'
+import WhatIDo from './Pages/WhatIDo'
+import Skills from './Pages/Skills'
 
 function App() {
   return (
     <>
       <Hero/>
       <AboutMe/>
-      <Second/>
+      <WhatIDo/>
+      <Skills/>
     </>
   )
 }
