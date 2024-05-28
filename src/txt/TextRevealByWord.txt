@@ -36,7 +36,7 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
           {words.map((word, i) => {
             const start = i / words.length;
             const end = start + 1 / words.length;
-            const color = specialWords.includes(word) ? "#ff4e26" : undefined;
+            const color = specialWords.includes(word) ? "#EC5938" : undefined;
             return (
               <Word key={i} progress={scrollYProgress} range={[start, end]} color={color}>
                 {word}

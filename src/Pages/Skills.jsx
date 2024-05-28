@@ -40,12 +40,12 @@ const Skills = () => {
   }, [])
 
   return (
-    <div className="main" ref={mainRef}>
+    <div className="main overflow-hidden" ref={mainRef}>
       <div className="top" ref={topRef}>
-        <h1 ref={th1Ref}>SKILLS</h1>
+        <h1 ref={th1Ref} className='ITCFont'>SKILLS</h1>
       </div>
       <div className="bottom" ref={bottomRef}>
-        <h1 ref={bh1Ref}>SKILLS</h1>
+        <h1 ref={bh1Ref} className='ITCFont'>SKILLS</h1>
       </div>
     </div>
   )

@@ -10,10 +10,10 @@ const AboutMe = () => {
           <h1>About Me</h1>
         </div>
       </div>
-      <div className='-mt-72 hidden lg:block'>
+      <div className='-mt-52 hidden lg:block ITCFont'>
         <TextRevealByWord text="The journey begins with a Passion to be a Software Engineer. Now, I'm a selectively skilled Frontend Web Developer, dedicated to producing high-quality, impactful digital experiences. With a keen focus on Innovation and Creativity. Let's collaborate to bring your digital vision to life with Passion and Precision." />
       </div>
-      <div className='-mt-72 block lg:hidden'>
+      <div className='-mt-72 block lg:hidden ITCFont'>
         <TextRevealByWord text="The journey begins with a Passion to be a Software Engineer. Now, I'm a selectively skilled Frontend Web Developer. With a keen focus on Innovation and Creativity. I specialize in crafting immersive websites that captivate and engage users." />
       </div>
     </div>

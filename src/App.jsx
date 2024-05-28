@@ -3,6 +3,7 @@ import AboutMe from './Pages/AboutMe'
 import Hero from './Pages/Hero'
 import WhatIDo from './Pages/WhatIDo'
 import Skills from './Pages/Skills'
+import Test from './Pages/Test'
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <AboutMe/>
       <WhatIDo/>
       <Skills/>
+      <Test/>
+      <Test/>
     </>
   )
 }

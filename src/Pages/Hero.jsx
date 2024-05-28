@@ -47,7 +47,7 @@ const Hero = () => {
                 </div>
                 <div className=" border-white text-lowWhite pr-0 lg:pr-10">
                   <div className="-mt-9 md:-mt-5 xxl:mt-0 text-pretty font-semibold">
-                    <p className="hidden md:inline hero_p">Passionate Frontend Developer</p><p className="inline hero_p text-sm xsm:text-base"> specializing in React.js.</p><p className="inline hero_p text-sm xsm:text-base"> I transform ideas into interactive and visually stunning web experiences.</p><p className="hidden md:inline hero_p"> Your Vision, My Code - Let's Build Something Extraordinary Together</p>
+                    <p className="hidden md:inline hero_p">Passionate Frontend Developer</p><p className="inline hero_p text-sm xsm:text-base"> specializing in React.js.</p><p className="inline hero_p text-sm xsm:text-base"> I transform ideas into interactive and visually stunning web experiences.</p><p className="hidden md:inline hero_p"> Your Vision, My Code - Let's Build Something Extraordinary Together</p>                  
                   </div>
                 </div>
                 <div className="z-10 flex items-center border">
