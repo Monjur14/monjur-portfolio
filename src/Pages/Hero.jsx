@@ -28,7 +28,12 @@ const Hero = () => {
             </span>
         </nav>
         <div className="flex flex-col xmd:flex-row items-center h-[85vh] gap-10 lg:gap-0 mt-0 xmd:mt-5">
+<<<<<<< HEAD
             <div className="basis-1/2">              
+=======
+            <div className="basis-1/2">
+              
+>>>>>>> 80fccc925a3306d0b3b1b85fe9c05cd5342aa436
                 <div className=" border-white -space-y-[6.5rem] xsm:-space-y-[5.83rem] md:-space-y-[4.4rem] xmd:-space-y-[4.8rem] lg:-space-y-[5.1rem] xxl:-space-y-[4.2rem] -mt-7 xsm:-mt-2 lg:-mt-3 xxl:-mt-28">
                     <svg className="svg1">
 		                <text x="0px" y="50%" dy=".35em" className="text1">Hi, I am</text>
@@ -51,6 +56,7 @@ const Hero = () => {
                 </div>
                 <div className="z-10 flex items-center border">
       
+<<<<<<< HEAD
             </div>
 
             </div>
@@ -60,6 +66,17 @@ const Hero = () => {
                   </div>
               </div>
             </div>
+=======
+    </div>
+
+            </div>
+            <div className="basis-1/2 mb-10 flex justify-center items-center">
+                <div className="w-screen lg:w-full xxl:w-[95%] border">
+                    <SphereAnimation/>
+                </div>
+            </div>
+        </div>
+>>>>>>> 80fccc925a3306d0b3b1b85fe9c05cd5342aa436
       </header>
     </div>
   )
