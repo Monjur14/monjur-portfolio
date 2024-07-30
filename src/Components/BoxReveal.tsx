@@ -19,11 +19,7 @@ export const BoxReveal = ({
   const slideControls = useAnimation();
  
   const ref = useRef(null);
-<<<<<<< HEAD
   const isInView = useInView(ref, { once: true, margin: "-20% 0px -15% 0px"});
-=======
-  const isInView = useInView(ref, { once: true, margin: "-20% 0px -20% 0px"});
->>>>>>> 80fccc925a3306d0b3b1b85fe9c05cd5342aa436
  
   useEffect(() => {
     if (isInView) {
