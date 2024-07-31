@@ -12,35 +12,35 @@ const WhatIDo = () => {
           </div>
             <p>This is my project showcase</p>
         </div>
-        <div className='h-full w-full flex items-center ITCFont'>
-          <div className='basis-1/2  w-full h-full'>
+        <div className='h-full w-full flex flex-col md:flex-row gap-3 items-center ITCFont'>
+          <div className='lg:basis-1/2  w-full h-full -mt-7 '>
             <BoxReveal boxColor={"#EC5938"} duration={0.5}>
-              <p className="text-[3.3rem] font-semibold text-lowWhite">
+              <p className="text-[1.5rem] lg:text-[3.3rem] font-semibold text-lowWhite">
                 Frontend Web Development<span className="text-[#EC5938]">.</span>
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#EC5938"} duration={0.5}>
-              <p className="text-[3.3rem] font-semibold text-lowWhite">
+              <p className="text-[1.5rem] lg:text-[3.3rem] font-semibold text-lowWhite">
               MERN Stack Development<span className="text-[#EC5938]">.</span>
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#EC5938"} duration={0.5}>
-              <p className="text-[3.3rem] font-semibold text-lowWhite">
+              <p className="text-[1.5rem] lg:text-[3.3rem] font-semibold text-lowWhite">
               WordPress Development<span className="text-[#EC5938]">.</span>
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#EC5938"} duration={0.5}>
-              <p className="text-[3.3rem] font-semibold text-lowWhite">
+              <p className="text-[1.5rem] lg:text-[3.3rem] font-semibold text-lowWhite">
               Motion Graphics Design<span className="text-[#EC5938]">.</span>
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#EC5938"} duration={0.5}>
-              <p className="text-[3.3rem] font-semibold text-lowWhite">
+              <p className="text-[1.5rem] lg:text-[3.3rem] font-semibold text-lowWhite">
               3D Visualization<span className="text-[#EC5938]">.</span>
               </p>
             </BoxReveal>
           </div>
-            <div className='basis-1/2  w-full h-full'>
+            <div className='basis-1/2 w-full h-full'>
                <img src={planet} alt="" className='w-full'/>
             </div>
           </div>

@@ -263,16 +263,16 @@
 /* Media Quiry Start */
 @media (0px < width <= 365px) {
 	.sec-title span{
-		font-size: 4rem;
+		font-size: 3.7rem;
 	}
 	.sec-title h1{
-		font-size: 2.5rem;
+		font-size: 2.3rem;
 		min-width: 200px;
-		bottom: 0.5rem;
+		bottom: 0.6rem;
 	}
 	.sec-title img{
-		max-width: 400px;
-		bottom: 0rem;
+		max-width: 370px;
+		bottom: 0.3rem;
 	}
 	.top h1{
 		font-size: 6rem;

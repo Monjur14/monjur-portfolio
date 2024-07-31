@@ -21,7 +21,7 @@ const Skills = () => {
     let tl = gsap.timeline({
         scrollTrigger: {
             trigger: mainElement,
-            markers: true,
+            // markers: true,
             start: '50% 50%',
             end: '100% 50%',
             scrub: 2,
